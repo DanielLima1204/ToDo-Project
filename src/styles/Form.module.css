@@ -1,0 +1,39 @@
+.formSection {
+  display: flex;
+  justify-content: center;
+}
+.formBox h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 46px;
+  margin-top: 1rem;
+  color: #112D4E;
+  font-family: 'Ubuntu', sans-serif;
+}
+.FormLine {
+  height: 0;
+  width: 500px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.formDivTitle {
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+.formDivTitle button {
+  width: 45px;
+  border-radius: 0px 5px 5px 0px;
+  height: 36px;
+  background-color: #aaaaaa;
+  color: white;
+  font-size: 20px;
+  border: 1px solid rgba(177, 177, 177, 0.4);
+}
+.formDivTitle input {
+  width: 250px;
+  height: 32px;
+  background: #DBE2EF;
+  border-radius: 5px 0px 0px 5px ;
+  border: 1px solid rgba(177, 177, 177, 0.4);
+}
